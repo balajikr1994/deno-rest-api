@@ -35,7 +35,7 @@ export const getMovie = ({ params, response }: { params: { id: string }; respons
     }
 }
 
-/* return the student if found and undefined if not */
+/* return the movie if found and undefined if not */
 const searchMovieByID = (id: string): (IMovies | undefined) => movies.filter(movie => movie.id.toString() === id)[0]
 
 
